@@ -2,7 +2,7 @@
 
 이번 프로젝트에서는  **이미지를 보고 미적으로 좋은 이미지와 나쁜 이미지로 분류하는 딥러닝 모델**을 연구한다. 미적 품질 평가(Aesthetic quality assessment) 모델은 인공지능의 하위 분야 중 하나인 미적 컴퓨팅(Computational Aesthetics)에서 연구되는 주제다.
 
-인간이 미를 평가하는 방법을 크게 세 가지 `요소`, `요소 간 관계`, `요소의 배치`로 가정하였다. 그리고 이중 기존 미적 평가 모델에서 사용하는 `CNN(Convolution Neural Network)`만으로 이루어진 신경망 구조로는 `요소` 분석만을 충족시킬 뿐 `요소 간 관계`, `요소의 배치` 이 두 가지 방법을 구현할 수 없어 새로운(Novel) 신경망 구조 `TN(Total versus dot neural network)`과 `Deepmind의 RN(Relation network)`을 이용하여 기존 CNN의 한계를 극복하였다.
+인간이 미를 평가하는 방법을 크게 세 가지 `요소`, `요소 간 관계`, `요소의 배치`로 가정하였다. 그리고 이중 기존 미적 평가 모델에서 사용하는 **CNN(Convolution Neural Network)**만으로 이루어진 신경망 구조로는 `요소` 분석만을 충족시킬 뿐 `요소 간 관계`, `요소의 배치` 이 두 가지 방법을 구현할 수 없어 새로운(Novel) 신경망 구조 `TN(Total versus dot neural network)`과 **Deepmind**의 `RN(Relation network)`을 이용하여 기존 CNN의 한계를 극복하였다.
 
 이번 프로젝트에서는 pre-trained 된 resnet50을 이용한 `ResTR(Resnet50 + TN + RN)`이라는 새로운 모델을 제안한다. 
 > Resnet50 with TN(Total versus dot Network) and RN(Relation Network)
@@ -13,7 +13,7 @@ AVA 데이터셋을 기반으로 한 성능 측정에서 `ResTR(Resnet50 + TN + 
 > State of the art result at 2018/11/21 
 
 아래는 이번 연구의 내용과 결과물을 간략히 요약한 포스터 이미지다.
-> 물리학과라는 정체성을 살려 디자인하였다. 반도체에서 전자가 전자대에서 가전자대로 이동하는 모습을 그리고 있다.
+> 물리학과라는 정체성을 살려 디자인하였다. 반도체에서 전자가 전자대에서 가전자대로 > 이동하는 모습을 디자인하였으며, 사용된 이미지는 AVA 데이터셋의 이미지들이다.
 
 ![posteriamge](https://github.com/IllgamhoDuck/ResTR/blob/master/aesthetic.jpg)
 
@@ -32,10 +32,10 @@ AVA 데이터셋을 기반으로 한 성능 측정에서 `ResTR(Resnet50 + TN + 
 다른 논문들과의 공정한 비교를 위해 AVA를 이용해 만든 AVA1, AVA2데이터셋을 사용했으며 https://github.com/BestiVictory/ILGnet 에서 사용된 데이터 셋을 그대로 가져왔다.
 
 ## Reference
-> [1] Naila Murray, Luca Marchesotti, Florent Perronnin, “AVA: A large-scale
+> 1. Naila Murray, Luca Marchesotti, Florent Perronnin, “AVA: A large-scale
 database for aesthetic visual analysis”, in IEEE, June 16-21, 2012
-[2] Adam Santoro , David Raposo , David G.T. Barrett, "A simple neural network module for relational reasoning", arXiv:1706.01427, 5 June 2017
-[3]Muktabh Mayank Srivastava, Sonaal Kant , "Visual aesthetic analysis using deep neural network: model and techniques to increase accuracy without transfer learning",
+2. Adam Santoro , David Raposo , David G.T. Barrett, "A simple neural network module for relational reasoning", arXiv:1706.01427, 5 June 2017
+3. Muktabh Mayank Srivastava, Sonaal Kant , "Visual aesthetic analysis using deep neural network: model and techniques to increase accuracy without transfer learning",
 In arXiv, 9 Dec 2017
 [4] Sara Sabour, Nicholas Frosst, Geoffrey E. Hinton, "Dynamic Routing Between Capsules", arXiv:1710.09829, 7 Nov 2017
 [5] Xin Jin, Le Wu, Xiaodong Li, Siyu Chen, Siwei Peng, Jingying Chi, , Shiming Ge, Chenggen Song, Geng Zhao, "Predicting Aesthetic Score Distribution through Cumulative Jensen-Shannon Divergence", arXiv:1708.07089, 20 Nov 2017
