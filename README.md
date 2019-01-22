@@ -1,13 +1,15 @@
 # ResTR
 
-이번 프로젝트에서는  **이미지를 보고 미적으로 좋은 이미지와 나쁜 이미지로 분류하는 딥러닝 모델**을 연구한다. 미적 품질 평가(Aesthetic quality assessment) 모델은 인공지능의 하위 분야 중 하나인 미적 컴퓨팅(Computational Aesthetics)에서 연구되는 주제다.
+이번 프로젝트에서는  **이미지를 보고 미적으로 좋은 이미지와 나쁜 이미지로 분류하는 딥러닝 모델**을 연구한다.
+
+미적 품질 평가(Aesthetic quality assessment) 모델은 인공지능의 하위 분야 중 하나인 미적 컴퓨팅(Computational Aesthetics)에서 연구되는 주제다.
 
 이 프로젝트에서는 인간이 미를 평가하는 방법을 크게 세 가지 로 가정하였다,
 - `요소`
 - `요소 간 관계`
 - `요소의 배치`
 
-기존 미적 평가 모델에서 사용하는 **CNN(Convolution Neural Network)**만으로 이루어진 신경망 구조로는 `요소` 분석만을 충족시킬 뿐 `요소 간 관계`, `요소의 배치` 이 두 가지 방법을 구현할 수 없다. 그래서 다음의 두 가지 신경망을 더 추가하여 기존 CNN의 한계를 극복하였다.
+기존 미적 평가 모델에서 사용하는 **CNN(Convolution Neural Network)** 만으로 이루어진 신경망 구조로는 `요소` 분석만을 충족시킬 뿐 `요소 간 관계`, `요소의 배치` 이 두 가지 방법을 구현할 수 없다. 그래서 다음의 두 가지 신경망을 더 추가하여 기존 CNN의 한계를 극복하였다.
 
 - 새로운(Novel) 신경망 구조 `TN(Total versus dot neural network)`
 - **Deepmind**팀의 [`RN(Relation network)`](https://arxiv.org/abs/1706.01427)
