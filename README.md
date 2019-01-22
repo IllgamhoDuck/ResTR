@@ -35,7 +35,7 @@ AVA 데이터셋을 기반으로 한 성능 측정에서 `ResTR(Resnet50 + TN + 
 > State of the art result at 2018/11/21 
 
 아래는 이번 연구의 내용과 결과물을 간략히 요약한 포스터 이미지다.
-> 물리학과라는 정체성을 살려 디자인하였다. 반도체에서 전자가 전자대에서 가전자대로 > 이동하는 모습을 디자인하였으며, 사용된 이미지는 AVA 데이터셋의 이미지들이다.
+> 물리학과라는 정체성을 살려 디자인하였다. 반도체에서 전자가 전자대에서 가전자대로 이동하는 모습을 디자인하였으며, 사용된 이미지는 AVA 데이터셋의 이미지들이다.
 
 ![posteriamge](https://github.com/IllgamhoDuck/ResTR/blob/master/aesthetic.jpg)
 
