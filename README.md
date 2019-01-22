@@ -9,21 +9,25 @@
 - `요소 간 관계`
 - `요소의 배치`
 
-기존 미적 평가 모델에서 사용하는 **CNN(Convolution Neural Network)** 만으로 이루어진 신경망 구조로는 `요소` 분석만을 충족시킬 뿐 `요소 간 관계`, `요소의 배치` 이 두 가지 방법을 구현할 수 없다. 그래서 다음의 두 가지 신경망을 더 추가하여 기존 CNN의 한계를 극복하였다.
+기존 미적 평가 모델에서 사용하는 **CNN(Convolution Neural Network)** 만으로 이루어진 신경망 구조로는 `요소` 분석만을 충족시킬 뿐 `요소 간 관계`, `요소의 배치` 이 두 가지 방법을 구현할 수 없다. 
 
+- `요소 간 관계`
+- `요소의 배치`
+
+이 두 가지를 구현하기 위해 100여가지가 넘는 다양한 모델을 테스트하였으며 이를 통해 최종적으로 가장 우수한 성능을 보이는 모델을 찾았으며 그 모델이 바로 아래 세 가지 신경망을 합한 `ResTR(Resnet50 + TN + RN)`이라는 새로운 모델이다.
+
+- **Microsoft**팀의 `Resnet50`
 - 새로운(Novel) 신경망 구조 `TN(Total versus dot neural network)`
 - **Deepmind**팀의 [`RN(Relation network)`](https://arxiv.org/abs/1706.01427)
 
-
-
-이번 프로젝트에서는 pre-trained 된 resnet50을 이용한 `ResTR(Resnet50 + TN + RN)`이라는 새로운 모델을 제안한다. 
+### Novel Deep learning model - ResTR
 > Resnet50 with TN(Total versus dot Network) and RN(Relation Network)
 
 - `Resnet50` (요소 그 자체를 분석)
 - `TN` (요소의 배치 : 전체 이미지와 요소 간 관계를 분석)
 - `RN` (요소 간 관계를 분석)
 
-ResTR은 이미지 내의 `요소들의 관계`에 대해서 중점적으로 분석하는 모델이다. 
+ResTR은 이미지 내의 `요소들의 관계`에 대해서 중점적으로 분석하는 모델로 위에서 가정한 인간의 미적 관점 세 가지를 충족한다.
 
 
 ## 성능
