@@ -39,29 +39,29 @@ database for aesthetic visual analysis”, in IEEE, June 16-21, 2012
 In arXiv, 9 Dec 2017
 > 4. Sara Sabour, Nicholas Frosst, Geoffrey E. Hinton, "Dynamic Routing Between Capsules", arXiv:1710.09829, 7 Nov 2017
 > 5. Xin Jin, Le Wu, Xiaodong Li, Siyu Chen, Siwei Peng, Jingying Chi, , Shiming Ge, Chenggen Song, Geng Zhao, "Predicting Aesthetic Score Distribution through Cumulative Jensen-Shannon Divergence", arXiv:1708.07089, 20 Nov 2017
-[6] Xin Jin, Le Wu, Xiaodong Li, Xiaokun Zhang, Jingying Chi, Siwei Peng, Shiming Ge, Geng Zhao, Shuying Li, "ILGNet: Inception Modules with Connected Local and Global Features for Efficient Image Aesthetic Quality Classification using Domain Adaptation", arXiv:1610.02256, 29 Apr 2018
-[7] Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun ,"Deep Residual Learning for Image Recognition", arXiv:1512.03385, 10 Dec 2015
-[8] Hossein Talebi, Peyman Milanfar, "NIMA: Neural Image Assessment", arXiv:1709.05424, 26 Apr 2018
-[9] Xin Lu, Zhe Lin, Hailin Jin, Jianchao Yang, James Z. Wang,"RAPID: Rating Pictorial Aesthetics using Deep Learning", 2014
-[10] R. Datta, D. Joshi, J. Li, J. Wang, "Studying aesthetics in photographic images using a computational approach", In European Conference on Computer Vision (ECCV), pages 288–301, 2006.
-[11] Y. Ke, X. Tang, F. Jing, "The design of high-level features for photo quality assessment", In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), volume 1, pages 419–426, 2006.
-[12] Y. Luo, X. Tang, "Photo and video quality evaluation: Focusing on the subject", In European Conference on Computer Vision (ECCV), pages 386–399, 2008.
-[13] W. Luo, X. Wang, X. Tang, "Content-based photo quality assessment", In IEEE International Conference on Computer Vision (ICCV), pages 2206–2213, 2011
-[14] S. Bhattacharya, R. Sukthankar, M. Shah, "A framework for photo-quality assessment and enhancement based on visual aesthetics", In ACM International Conference on Multimedia (MM), pages 271–280, 2010.
-[15] S. Dhar, V. Ordonez, T. Berg, "High level describable attributes for predicting aesthetics and interestingness", In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 1657–1664, June 2011.
+> 6. Xin Jin, Le Wu, Xiaodong Li, Xiaokun Zhang, Jingying Chi, Siwei Peng, Shiming Ge, Geng Zhao, Shuying Li, "ILGNet: Inception Modules with Connected Local and Global Features for Efficient Image Aesthetic Quality Classification using Domain Adaptation", arXiv:1610.02256, 29 Apr 2018
+> 7. Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun ,"Deep Residual Learning for Image Recognition", arXiv:1512.03385, 10 Dec 2015
+> 8. Hossein Talebi, Peyman Milanfar, "NIMA: Neural Image Assessment", arXiv:1709.05424, 26 Apr 2018
+> 9. Xin Lu, Zhe Lin, Hailin Jin, Jianchao Yang, James Z. Wang,"RAPID: Rating Pictorial Aesthetics using Deep Learning", 2014
+> 10. R. Datta, D. Joshi, J. Li, J. Wang, "Studying aesthetics in photographic images using a computational approach", In European Conference on Computer Vision (ECCV), pages 288–301, 2006.
+> 11. Y. Ke, X. Tang, F. Jing, "The design of high-level features for photo quality assessment", In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), volume 1, pages 419–426, 2006.
+> 12. Y. Luo, X. Tang, "Photo and video quality evaluation: Focusing on the subject", In European Conference on Computer Vision (ECCV), pages 386–399, 2008.
+> 13. W. Luo, X. Wang, X. Tang, "Content-based photo quality assessment", In IEEE International Conference on Computer Vision (ICCV), pages 2206–2213, 2011
+> 14. S. Bhattacharya, R. Sukthankar, M. Shah, "A framework for photo-quality assessment and enhancement based on visual aesthetics", In ACM International Conference on Multimedia (MM), pages 271–280, 2010.
+> 15. S. Dhar, V. Ordonez, T. Berg, "High level describable attributes for predicting aesthetics and interestingness", In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 1657–1664, June 2011.
 33 / 33
-[16] M. Nishiyama, T. Okabe, I. Sato, Y. Sato, "Aesthetic quality classification of photographs based on color harmony", In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 33–40, 2011.
-[17] P. O’Donovan, A. Agarwala, A. Hertzmann, "Color compatibility from large datasets", ACM Transactions on Graphics (TOG), 30(4):63:1–12, 2011.
-[18] Ashish V erma, Kranthi Koukuntla, Rohit V arma, Snehasis Mukherjee, "Automatic Assessment of Artistic Quality of Photos", arXiv:1804.06124, 17 Apr 2018
-[19] Shuang Ma, Jing Liuy, Chang Wen Chen, "A-Lamp: Adaptive Layout-Aware Multi-Patch Deep Convolutional Neural Network for Photo Aesthetic Assessment", arXiv:1704.00248, 2 Apr 2017
-[20] Shu Kong, Xiaohui Shen, Zhe Lin, Radomir Mech, Charless Fowlkes, "Photo Aesthetics Ranking Network with Attributes and Content Adaptation", arXiv:1606.01621, 27 Jul 2016
-[21] Weining Wang, Mingquan Zhao, Li Wang, Jiexiong Huang, Chengjia Cai, and
+> 16. M. Nishiyama, T. Okabe, I. Sato, Y. Sato, "Aesthetic quality classification of photographs based on color harmony", In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 33–40, 2011.
+> 17.  P. O’Donovan, A. Agarwala, A. Hertzmann, "Color compatibility from large datasets", ACM Transactions on Graphics (TOG), 30(4):63:1–12, 2011.
+> 18. Ashish V erma, Kranthi Koukuntla, Rohit V arma, Snehasis Mukherjee, "Automatic Assessment of Artistic Quality of Photos", arXiv:1804.06124, 17 Apr 2018
+> 19. Shuang Ma, Jing Liuy, Chang Wen Chen, "A-Lamp: Adaptive Layout-Aware Multi-Patch Deep Convolutional Neural Network for Photo Aesthetic Assessment", arXiv:1704.00248, 2 Apr 2017
+> 20. Shu Kong, Xiaohui Shen, Zhe Lin, Radomir Mech, Charless Fowlkes, "Photo Aesthetics Ranking Network with Attributes and Content Adaptation", arXiv:1606.01621, 27 Jul 2016
+> 21. Weining Wang, Mingquan Zhao, Li Wang, Jiexiong Huang, Chengjia Cai, and
 Xiangmin Xu, “A multi-scene deep learning model for image aesthetic evaluation”,
 Signal Processing: Image Communication, pp. –, 2016
-[22] Geoffrey Hinton, Sara Sabour, Nicholas Frosst, "MATRIX CAPSULES WITH EM ROUTING", In ICLR, 2018
-[23] Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio, "Generative Adversarial Nets", In NIPS, 2014
-[24] Christian Szegedy, Sergey Ioffe, Vincent Vanhoucke, "Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning", arXiv:1602.07261, 23 Aug 2016
-[25] The SciPy community, numpy.fft.fft2, 24 Jul 2018, https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/
+> 22. Geoffrey Hinton, Sara Sabour, Nicholas Frosst, "MATRIX CAPSULES WITH EM ROUTING", In ICLR, 2018
+> 23. Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio, "Generative Adversarial Nets", In NIPS, 2014
+> 24. Christian Szegedy, Sergey Ioffe, Vincent Vanhoucke, "Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning", arXiv:1602.07261, 23 Aug 2016
+> 25. The SciPy community, numpy.fft.fft2, 24 Jul 2018, https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/
 
 ## License
 MIT License
