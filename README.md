@@ -34,11 +34,11 @@ AVA 데이터셋을 기반으로 한 성능 측정에서 `ResTR(Resnet50 + TN + 
 ## Reference
 > 1. Naila Murray, Luca Marchesotti, Florent Perronnin, “AVA: A large-scale
 database for aesthetic visual analysis”, in IEEE, June 16-21, 2012
-2. Adam Santoro , David Raposo , David G.T. Barrett, "A simple neural network module for relational reasoning", arXiv:1706.01427, 5 June 2017
-3. Muktabh Mayank Srivastava, Sonaal Kant , "Visual aesthetic analysis using deep neural network: model and techniques to increase accuracy without transfer learning",
+> 2. Adam Santoro , David Raposo , David G.T. Barrett, "A simple neural network module for relational reasoning", arXiv:1706.01427, 5 June 2017
+> 3. Muktabh Mayank Srivastava, Sonaal Kant , "Visual aesthetic analysis using deep neural network: model and techniques to increase accuracy without transfer learning",
 In arXiv, 9 Dec 2017
-[4] Sara Sabour, Nicholas Frosst, Geoffrey E. Hinton, "Dynamic Routing Between Capsules", arXiv:1710.09829, 7 Nov 2017
-[5] Xin Jin, Le Wu, Xiaodong Li, Siyu Chen, Siwei Peng, Jingying Chi, , Shiming Ge, Chenggen Song, Geng Zhao, "Predicting Aesthetic Score Distribution through Cumulative Jensen-Shannon Divergence", arXiv:1708.07089, 20 Nov 2017
+> 4. Sara Sabour, Nicholas Frosst, Geoffrey E. Hinton, "Dynamic Routing Between Capsules", arXiv:1710.09829, 7 Nov 2017
+> 5. Xin Jin, Le Wu, Xiaodong Li, Siyu Chen, Siwei Peng, Jingying Chi, , Shiming Ge, Chenggen Song, Geng Zhao, "Predicting Aesthetic Score Distribution through Cumulative Jensen-Shannon Divergence", arXiv:1708.07089, 20 Nov 2017
 [6] Xin Jin, Le Wu, Xiaodong Li, Xiaokun Zhang, Jingying Chi, Siwei Peng, Shiming Ge, Geng Zhao, Shuying Li, "ILGNet: Inception Modules with Connected Local and Global Features for Efficient Image Aesthetic Quality Classification using Domain Adaptation", arXiv:1610.02256, 29 Apr 2018
 [7] Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun ,"Deep Residual Learning for Image Recognition", arXiv:1512.03385, 10 Dec 2015
 [8] Hossein Talebi, Peyman Milanfar, "NIMA: Neural Image Assessment", arXiv:1709.05424, 26 Apr 2018
