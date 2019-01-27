@@ -17,8 +17,8 @@
 이 두 가지를 구현하기 위해 100여가지가 넘는 다양한 모델을 테스트하였으며 이를 통해 최종적으로 가장 우수한 성능을 보이는 모델을 찾았으며 그 모델이 바로 아래 세 가지 신경망을 합한 `ResTR(Resnet50 + TN + RN)`이라는 새로운 모델이다.
 
 - **Microsoft**팀의 `Resnet50`
-- RN을 응용해 직접 구성한 새로운(Novel) 신경망 구조 `TN(Total versus dot neural network)`
 - **Deepmind**팀의 [`RN(Relation network)`](https://arxiv.org/abs/1706.01427)
+- RN을 응용해 직접 구성한 새로운(Novel) 신경망 구조 `TN(Total versus dot neural network)`
 
 ### Novel Deep learning model - ResTR
 > Resnet50 with TN(Total versus dot Network) and RN(Relation Network)
