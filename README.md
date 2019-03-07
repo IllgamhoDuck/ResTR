@@ -1,5 +1,7 @@
 # ResTR
 
+> This Project is proposing the novel deep learning architecture ResTR(Resnet50 with TN(Total versus dot Network) and RN(Relation Network)) to handle aesthetic image quality assessment study. Reached the state of the art result(AVA1 - 0.22% / AVA2 - 4.16%) for the AVA(A Large-Scale Database for Aesthetic Visual Analysis) dataset at 2018.11.21.
+
 이번 프로젝트에서는  **이미지를 보고 미적으로 좋은 이미지와 나쁜 이미지로 분류하는 딥러닝 모델**을 연구한다.
 
 미적 품질 평가(Aesthetic quality assessment) 모델은 인공지능의 하위 분야 중 하나인 미적 컴퓨팅(Computational Aesthetics)에서 연구되는 주제다.
